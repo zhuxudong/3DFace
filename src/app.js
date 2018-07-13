@@ -1,1 +1,1 @@
-import 'babel-polyfill'
+import "../test/test"
