@@ -27,6 +27,9 @@ let config = {
       '@': path.resolve(__dirname, '../src')
     }
   },
+  externals: {
+    "babylonjs": "BABYLON"
+  },
   module: {
     rules: [
       {test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"},
