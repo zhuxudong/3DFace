@@ -2,7 +2,7 @@
 科技感的人脸，随着鼠标看向鼠标所指方向
 
 ![home](https://github.com/zhuxudong/3DFace/blob/master/static/home.gif?raw=true)
-
+![home](https://github.com/zhuxudong/3DFace/blob/master/static/move.gif?raw=true)
 
 # 开始
 ```
