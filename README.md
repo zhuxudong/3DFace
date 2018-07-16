@@ -1,8 +1,8 @@
 # 3DFace
 科技感的人脸，随着鼠标看向鼠标所指方向
 
-![home](https://github.com/zhuxudong/3DFace/static/home.gif)
-![move](https://github.com/zhuxudong/3DFace/static/move.gif)
+![home](https://github.com/zhuxudong/3DFace/blob/master/static/home.gif?raw=true)
+
 
 # 开始
 ```
