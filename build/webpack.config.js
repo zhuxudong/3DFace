@@ -13,7 +13,7 @@ const base = require('./base')
 let config = {
   context: path.resolve(__dirname, '../'),
   entry: {
-    app: ["babel-polyfill", "./src/app.js"]
+    app: ["babel-polyfill", "./src/app.ts"]
   },
   output: {
     path: path.resolve(__dirname, "../dist"),
@@ -28,10 +28,11 @@ let config = {
     }
   },
   externals: {
-    "babylonjs": "BABYLON"
+    'babylonjs': 'BABYLON'
   },
   module: {
     rules: [
+      {test: /\.ts$/, loader: 'ts-loader'},
       {test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"},
       {
         test: /\.css$/,
